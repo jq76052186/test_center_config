@@ -1,1 +1,12 @@
-jq.test=1
+jq
+  test=1
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false
