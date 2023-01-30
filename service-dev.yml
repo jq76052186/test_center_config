@@ -8,3 +8,5 @@ management:
         include: '*'
   security:
     enabled: false
+jq:
+  test: 12345
