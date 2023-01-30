@@ -7,6 +7,6 @@ management:
       exposure:
         include: '*'
   security:
-    enabled: true
+    enabled: false
 jq:
-  test: 12345
+  test: 123451
